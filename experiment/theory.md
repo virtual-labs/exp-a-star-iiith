@@ -22,7 +22,7 @@ STEP 7: Repeat steps 2-6 until the goal node is reached or the frontier is empty
 
 ## Example
 
-! [A* Search Example](images/A*.png)
+! [A* Search Example](./images/A*.png)
 
 Reference: Figure 3.23 of Reference 1
 
