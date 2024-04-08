@@ -2,29 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What kind of data structure does A* search use?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Linked List",
+        "b": "Stack",
+        "c": "Priority Queue",
+        "d": "Regular Queue"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -34,6 +17,83 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Is A* an informed or uninformed search algorithm?",
+      "answers": {
+        "a": "informed",
+        "b": "uninformed"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In A* search, what is the role of the heuristic function?",
+      "answers": {
+        "a": "Estimates distance from the start node to the current node.",
+        "b": "Estimates the cost of the cheapest path from the current node to the goal node.",
+        "c": "Estimates distance from the start node to the goal node.",
+        "d": "Estimates the cost of the cheapest path from the start node to the goal node."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In A* search, what does the f value represent?",
+      "answers": {
+        "a": "It represents the heuristic value of the current node.",
+        "b": "It represents the total estimated cost of the path from the start node to the goal node.",
+        "c": "It represents the cost of the cheapest path found from the start node to the current node.",
+        "d": "It represents the sum of the actual cost from the start node to the current node and the estimated cost from the current node to the goal node."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is true about A* search?",
+      "answers": {
+        "a": "It is always complete.",
+        "b": "It is always optimal.",
+        "c": "It is never complete nor optimal.",
+        "d": "If the heuristic is consistent, it is complete and optimal."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following scenarios would result in A* search performing poorly or even failing to find the optimal solution?",
+      "answers": {
+        "a": "When the graph has a high branching factor and the heuristic function is not informative",
+        "b": "When the heuristic function is consistent but not admissible",
+        "c": "When the heuristic function always returns a constant value",
+        "d": "When the graph contains cycles"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
