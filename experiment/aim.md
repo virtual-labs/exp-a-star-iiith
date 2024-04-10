@@ -1,1 +1,5 @@
-To understand how A* Search algorithm works.
+This experiment is structured to demonstrate the A* search algorithm applied on a simple graph search setting. It provides a step-by-step understanding of the A* algorithm, its heuristic function, and how it can be used to find the shortest path between two nodes in a graph.
+
+## Objectives:
+- **Understand the A\* Search Algorithm and explore heuristic functions:** Learn the working principles of the A* search algorithm and the role of heuristic functions in guiding the search process and how it influences the efficiency of finding the shortest path between two nodes in a graph.
+- **Visualize the Search Process and path history:** Observe the step-by-step search process of the A* algorithm on a graph, highlighting the nodes expanded, the path taken, and the heuristic values at each step. Understand how the A* algorithm keeps track of the path taken to reach a node and how it backtracks to find the optimal path from the start node to the goal node.
