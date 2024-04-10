@@ -24,7 +24,7 @@
         "a": "h value",
         "b": "g value",
         "c": "f value",
-        "d": ""
+        "d": "None of the above"
       },
       "explanations": {
         "a": "",
@@ -42,8 +42,8 @@
         "b": "no"
       },
       "explanations": {
-        "a": "Try to make an example where this is true",
-        "b": "Explanation 2"
+        "a": "Try to construct an example in the practice mode where this is true.",
+        "b": ""
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -57,10 +57,10 @@
         "d": "UCS is uninformed search, and A* is informed search ordered by f value"
       },
       "explanations": {
-        "a": "There is no heuristic in UCS",
-        "b": "A* is informed search",
-        "c": "A* is ordered by f value",
-        "d": "Refer to UCS experiment"
+        "a": "There is no heuristic in UCS.",
+        "b": "A* is informed search.",
+        "c": "A* is ordered by f value.",
+        "d": "Refer to UCS experiment."
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -74,7 +74,7 @@
         "d": "No"
       },
       "explanations": {
-        "a": "Whenever A* selects a node for expansion (smallest f value in frontier), the optimal path to that node has been found",
+        "a": "Whenever A* selects a node for expansion (smallest f value in frontier), the optimal path to that node has been found.",
         "b": "",
         "c": "",
         "d": ""
@@ -94,7 +94,7 @@
         "a": "",
         "b": "",
         "c": "",
-        "d": "Check reference 1 for the proof"
+        "d": "Check Reference 1 for the proof."
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
