@@ -4,16 +4,16 @@
     {
       "question": "Let h be the h value of the start node. What are the g and f values for the start node?",
       "answers": {
-        "a": "g = 0, f = 2h",
+        "a": "g = 0 (zero), f = 2h",
         "b": "g = h, f = h",
-        "c": "g = 0, f = h",
-        "d": "g = h, f = 0"
+        "c": "g = 0 (zero), f = h",
+        "d": "g = h, f = 0 (zero)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -24,13 +24,13 @@
         "a": "h value",
         "b": "g value",
         "c": "f value",
-        "d": "None of the above"
+        "d": ""
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -42,10 +42,8 @@
         "b": "no"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Try to make an example where this is true",
+        "b": "Explanation 2"
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
@@ -59,10 +57,10 @@
         "d": "UCS is uninformed search, and A* is informed search ordered by f value"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "There is no heuristic in UCS",
+        "b": "A* is informed search",
+        "c": "A* is ordered by f value",
+        "d": "Refer to UCS experiment"
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -76,10 +74,10 @@
         "d": "No"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Whenever A* selects a node for expansion (smallest f value in frontier), the optimal path to that node has been found",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
@@ -93,10 +91,10 @@
         "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "Check reference 1 for the proof"
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
