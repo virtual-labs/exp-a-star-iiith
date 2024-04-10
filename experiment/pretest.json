@@ -10,10 +10,10 @@
         "d": "Regular Queue"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "Nodes are expanded in order of their f values.",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -21,12 +21,12 @@
     {
       "question": "Is A* an informed or uninformed search algorithm?",
       "answers": {
-        "a": "informed",
-        "b": "uninformed"
+        "a": "Informed",
+        "b": "Uninformed"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2"
+        "a": "The heuristic function is problem-specific knowledge to help 'inform' solutions",
+        "b": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -40,8 +40,8 @@
         "d": "Estimates the cost of the cheapest path from the start node to the goal node."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2"
+        "a": "",
+        "b": ""
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
@@ -50,13 +50,13 @@
       "question": "In A* search, what does the f value represent?",
       "answers": {
         "a": "It represents the heuristic value of the current node.",
-        "b": "It represents the total estimated cost of the path from the start node to the goal node.",
-        "c": "It represents the cost of the cheapest path found from the start node to the current node.",
+        "b": "It represents the cost of the cheapest path found from the current node to the goal node.",
+        "c": "It represents the actual cost of the path from the start node to the current node.",
         "d": "It represents the sum of the actual cost from the start node to the current node and the estimated cost from the current node to the goal node."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2"
+        "a": "",
+        "b": ""
       },
       "correctAnswer": "d",
       "difficulty": "intermediate"
@@ -70,27 +70,27 @@
         "d": "If the heuristic is consistent, it is complete and optimal."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "Check reference 1 for the proof"
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
     },
     {
-      "question": "Which of the following scenarios would result in A* search performing poorly or even failing to find the optimal solution?",
+      "question": "When could A* perform worse than breadth-first search?",
       "answers": {
-        "a": "When the graph has a high branching factor and the heuristic function is not informative",
-        "b": "When the heuristic function is consistent but not admissible",
-        "c": "When the heuristic function always returns a constant value",
-        "d": "When the graph contains cycles"
+        "a": "When the heuristic function is not admissible",
+        "b": "When the heuristic function is consistent",
+        "c": "When the search space is infinite",
+        "d": "When the cost of the optimal solution is high"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "A* may unnecessarily expand nodes and find suboptimal solutions.",
+        "b": "A* would be optimal under this condition.",
+        "c": "A* is still better than breadth-first search in this case.",
+        "d": "A* would still be optimal under this condition."
       },
       "correctAnswer": "a",
       "difficulty": "advanced"
