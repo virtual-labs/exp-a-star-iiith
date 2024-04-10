@@ -34,9 +34,9 @@ The graph-search version of A* is optimal if the heuristic function is consisten
 
 ## Advantages 
 
-Completeness: A* Search is complete, meaning that if a path exists between the start and goal nodes, A* is guaranteed to find it, provided certain conditions are met (such as finite graph size and consistent heuristic).
+Completeness: A* Search is complete, meaning that if a path exists between the start and goal nodes (i.e. a solution exists), A* is guaranteed to find it, provided certain conditions are met (such as finite graph size and consistent heuristic).
 
-Optimality: When using an admissible heuristic (one that never overestimates the true cost to reach the goal), A* Search is optimal, meaning it will always find the shortest path between the start and goal nodes.
+Optimality: When using an admissible heuristic (one that never overestimates the true cost to reach the goal), A* Search is optimal, meaning it will always find the shortest (or lowest) path cost between the start and goal nodes.
 
 Efficiency: A* Search is generally efficient, especially when using an appropriate heuristic. By intelligently selecting nodes to explore based on their estimated cost, A* can often find the optimal path while exploring a relatively small portion of the search space.
 
