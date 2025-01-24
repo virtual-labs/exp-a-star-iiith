@@ -2,38 +2,102 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Let h be the h value of the start node. What are the g and f values for the start node?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "g = 0 (zero), f = 2h",
+        "b": "g = h, f = h",
+        "c": "g = 0 (zero), f = h",
+        "d": "g = h, f = 0 (zero)"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What value is the frontier ordered by?",
+      "answers": {
+        "a": "h value",
+        "b": "g value",
+        "c": "f value",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In this implementation of the algorithm, can there be multiple f values for the same node in the frontier?",
+      "answers": {
+        "a": "yes",
+        "b": "no"
+      },
+      "explanations": {
+        "a": "Try to construct an example in the practice mode where this is true.",
+        "b": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which statement is true about A* search and Uniform Cost Search (UCS)?",
+      "answers": {
+        "a": "Both are informed search, and UCS is ordered by h value",
+        "b": "Both are uninformed search, and UCS is ordered by g value",
+        "c": "UCS is uninformed search, and A* is informed search ordered by g value",
+        "d": "UCS is uninformed search, and A* is informed search ordered by f value"
+      },
+      "explanations": {
+        "a": "There is no heuristic in UCS.",
+        "b": "A* is informed search.",
+        "c": "A* is ordered by f value.",
+        "d": "Refer to UCS experiment."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Let's say that node n is in the frontier with value v. Is v guaranteed to be the shortest path from the start node to n?",
+      "answers": {
+        "a": "If v is the smallest f value in the frontier, then yes",
+        "b": "If v is the smallest g value in the frontier, then yes",
+        "c": "Yes",
+        "d": "No"
+      },
+      "explanations": {
+        "a": "Whenever A* selects a node for expansion (smallest f value in frontier), the optimal path to that node has been found.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Let the heuristic h(n) be the straight line distance between node n and the goal node. Which of the following is/are true?",
+      "answers": {
+        "a": "h is a consistent heuristic",
+        "b": "The values of f(n) along any path are nondecreasing",
+        "c": "Whenever A* selects a node n for expansion, the optimal path to that node has been found.",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "Check Reference 1 for the proof."
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
     }
   ]
 }
