@@ -1,0 +1,11 @@
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-a-star-iiith/exp-a-star-iiith/experiment-descriptor.json'
+  ],
+  files: [
+    '/home/runner/work/exp-a-star-iiith/exp-a-star-iiith/experiment-descriptor.json'
+  ],
+  '$0': 'validate'
+}
+Validated true
